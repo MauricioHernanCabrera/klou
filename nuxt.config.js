@@ -42,8 +42,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon2.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: 'http://fonts.googleapis.com/css?family=Raleway:400,600,700,300,500,800,900' },
-      { rel: 'stylesheet', type: 'text/css', href: 'http://fonts.googleapis.com/css?family=PT+Sans:400,700' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Raleway:400,600,700,300,500,800,900' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=PT+Sans:400,700' },
     ]
   },
   /*
