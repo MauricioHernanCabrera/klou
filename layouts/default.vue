@@ -15,6 +15,15 @@
       </b-collapse>
     </b-navbar>
     <nuxt/>
+    <footer class="footer">
+      <b-container>
+        <b-row>
+          <b-col cols="12" class="text-center py-4">
+            <p class="titulo mb-0">copyright 2014. todos los derechos reservados</p>
+          </b-col>
+        </b-row>
+      </b-container>
+    </footer>
   </div>
 </template>
 <script>
@@ -71,6 +80,14 @@ export default {
     &:hover {
       background-image: url('~/static/icontweet-hover.png');
     }
+  }
+}
+
+.footer {
+  background-color: #131a1d;
+  .titulo {
+    color: #7D8C97;
+    font-size: 0.68em;
   }
 }
 @media (max-width: 767px) {
